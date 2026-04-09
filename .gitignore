@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# AWS
+.aws/
+
+# Node (if any tooling added later)
+node_modules/
+npm-debug.log
+
+# Python (if any tooling added later)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
