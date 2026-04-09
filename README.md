@@ -167,5 +167,5 @@ scout-salesbot/
 
 Designed to be low cost for personal/demo use. At small scale (single doc, low query volume) estimated cost is under $1/month. Main cost drivers are Bedrock model invocations (per token) and S3 Vectors query processing.
 
----
+
 
