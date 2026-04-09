@@ -169,11 +169,3 @@ Designed to be low cost for personal/demo use. At small scale (single doc, low q
 
 ---
 
-## Out of scope (v1)
-
-- User authentication
-- Multi-device sync
-- Server-side chat history
-- Streaming responses
-- File upload from the browser
-- Custom chunking or embedding pipeline
