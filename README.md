@@ -8,6 +8,25 @@ A lightweight RAG chatbot that answers product feature questions from your own d
 
 ---
 
+## Test questions (Flowtask demo dataset)
+ 
+The live demo is loaded with synthetic product documentation for a fictional SaaS product called Flowtask. These questions test the full RAG pipeline:
+ 
+| Question | What it tests |
+|---|---|
+| Does Flowtask support SSO? | Feature availability |
+| Which plan includes audit logs? | Plan differentiation |
+| Can guests view audit logs? | Role-based access |
+| Does Pro include SCIM? | Feature availability by plan |
+| Can I configure automations on mobile? | Platform limitations |
+| What integrations are supported? | Integration listing |
+| What is the difference between Pro and Enterprise for approvals? | Multi-step plan comparison |
+| Does search respect permissions? | Security / access control |
+| Can dashboard data be exported? | Feature limitation |
+| Which roles can invite users? | Role capabilities |
+
+---
+
 ## What it does
 
 - Answers product feature questions grounded strictly in uploaded docs
@@ -170,24 +189,3 @@ scout-salesbot/
 ## Cost
 
 Designed to be low cost for personal/demo use. At small scale (single doc, low query volume) estimated cost is under $1/month. Main cost drivers are Bedrock model invocations (per token) and S3 Vectors query processing.
-
----
- 
-## Test questions (Flowtask demo dataset)
- 
-The live demo is loaded with synthetic product documentation for a fictional SaaS product called Flowtask. Use these questions to test the full RAG pipeline:
- 
-| Question | What it tests |
-|---|---|
-| Does Flowtask support SSO? | Feature availability |
-| Which plan includes audit logs? | Plan differentiation |
-| Can guests view audit logs? | Role-based access |
-| Does Pro include SCIM? | Feature availability by plan |
-| Can I configure automations on mobile? | Platform limitations |
-| What integrations are supported? | Integration listing |
-| What is the difference between Pro and Enterprise for approvals? | Multi-step plan comparison |
-| Does search respect permissions? | Security / access control |
-| Can dashboard data be exported? | Feature limitation |
-| Which roles can invite users? | Role capabilities |
-
-
