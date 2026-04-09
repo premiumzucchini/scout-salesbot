@@ -1,13 +1,13 @@
 # Scout — The Salesbot
 
-A lightweight RAG chatbot that answers product feature questions from your own documentation. Built on AWS with a fully serverless architecture. No vector database to manage — uses Amazon S3 Vectors as the vector store.
+A lightweight RAG chatbot that answers product feature questions from your own documentation. Built on AWS with a fully serverless architecture. No vector database to manage, uses Amazon S3 Vectors as the vector store.
 
 ---
 
 ## What it does
 
 - Answers product feature questions grounded strictly in uploaded docs
-- Refuses to answer from general knowledge — if it's not in the docs, it says so
+- Refuses to answer from general knowledge; if it's not in the docs, it says so
 - Maintains multi-turn conversation context within a session
 - Stores multiple conversations in the browser with full history
 
